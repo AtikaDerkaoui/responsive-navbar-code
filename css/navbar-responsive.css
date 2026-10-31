@@ -1,0 +1,58 @@
+/* ==== LAPTOPS & SMALL DESKTOPS 769px – 1024px ==== */
+@media (min-width: 1024px) {
+
+}
+
+
+/* ==== LAPTOP and COMPUTER DEVICES ==== */
+@media (min-width: 768px) {
+    .nav-menu-container, .close-menu-icon{
+        display: none !important;
+    }
+    .nav{
+        align-items: center;
+        padding: 1rem 5rem;
+    }
+    .nav-logo-container{
+        font-size: 16pt;
+    }
+    .nav-links-container{
+        position:unset;
+        width:fit-content;
+        height:auto;
+        background-color: unset;
+        transform: translateX(0);
+    }
+    .nav-links-container ul{
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 4rem;
+        padding: unset;
+    }
+    .nav-links-container ul li a{
+        font-size: 14pt;
+        display: block;
+        padding: 10px 15px;
+    }
+    .nav-links-container ul li a:hover{
+        background-color: #204797;
+    
+    }
+
+    /* HOME */
+    .main{
+        justify-content: flex-start;
+        padding: 30vh 20vw;
+    }
+    .main p{
+        font-size: 45pt
+    }
+
+}
+
+
+
+/* ==== SMALL MOBILE DEVICES 320px – 480px ==== */
+@media (max-width: 480px) {
+
+}
